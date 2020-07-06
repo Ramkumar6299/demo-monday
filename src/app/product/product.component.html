@@ -1,0 +1,12 @@
+<form [formGroup]="myform">
+    <label for="Name">Name:</label>&nbsp;
+    <input type="text" Name="Name" formControlName="Name"/>
+    <br/>
+    <label for="">Price:</label>&nbsp;&nbsp;
+    <input type="number" Name="Price" formControlName="Price"/>
+    <br/>
+    <label for="">Stock:</label>&nbsp;
+    <input type="text" Name="Stock" formControlName="Stock"/>
+    <br/>
+    <input type="submit" (click)="adddata()" value="Submit">
+</form>
